@@ -2,4 +2,12 @@
     "webcredentials": {
         "apps": [ "9R3F7Q28U5.com.chethankamath.Clymb" ]
     }
+    
+     "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "9R3F7Q28U5.com.chethankamath.Clymb",
+            "paths": ["*"]
+            }]
+    }
 }
