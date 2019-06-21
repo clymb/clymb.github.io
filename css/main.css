@@ -1787,7 +1787,7 @@ h1, h2, h3, h4, h5, h6 {
       top: 22px; } }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: #000;
   font-weight: 900; }
 
 @media (max-width: 960px) {
@@ -1871,7 +1871,7 @@ body.mobile-nav-active #mobile-nav {
   left: 0; }
 
 body.mobile-nav-active #mobile-nav-toggle {
-  color: #fff; }
+  color: #000; }
 
 .home-banner-area {
   background: url(../img/home-banner-bg.jpg) center;
@@ -1968,7 +1968,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%; }
   @media (max-width: 991px) {
     .home-about-left img {
-      display: none; } }
+      display: block !important; } }
 
 .home-about-right h1 {
   padding: 20px 0; }
@@ -1976,7 +1976,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     .home-about-right h1 {
       font-size: 30px; }
       .home-about-right h1 br {
-        display: none; } }
+        display: block !important; } }
 .home-about-right p {
   margin-bottom: 40px; }
 
