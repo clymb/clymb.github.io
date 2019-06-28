@@ -34,6 +34,8 @@
 	content: "\e802";
 }
 .lnr-magic-wand:before {
+	color: #000;
+	font-size: 40px;
 	content: "\e803";
 }
 .lnr-drop:before {
@@ -43,6 +45,8 @@
 	content: "\e805";
 }
 .lnr-poop:before {
+	color: #000;
+	font-size: 40px;
 	content: "\e806";
 }
 .lnr-sun:before {
@@ -73,6 +77,8 @@
 	content: "\e80f";
 }
 .lnr-cog:before {
+	color: #000;
+	font-size: 40px;
 	content: "\e810";
 }
 .lnr-trash:before {
