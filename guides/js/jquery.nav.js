@@ -72,10 +72,10 @@ $('.left-menu a, #mobile-nav a, .scrollto').on('click', function () {
 
             $('html, body').animate({
                 scrollTop: target.offset().top - top_space
-            }, 1500, 'easeInOutExpo');
+            });
 
             if ($(this).parents('.left-menu').length) {
-                $('.left-menu .menu-active').removeClass('menu-active');
+                $('.left-menu .current').removeClass('menu-active');
                 $(this).closest('li').addClass('menu-active');
             }
 

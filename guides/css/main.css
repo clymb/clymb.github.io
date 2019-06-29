@@ -245,7 +245,13 @@ section p {
     display: inline; }
 
   #left-sidebar {
-    display: none; } }
+    display: none;}
+
+	#main-wrapper {
+		    float: left;
+		    margin-left: 10%;
+		    width: 82%;
+		}}
 /* Mobile Nav Styling */
 #mobile-nav {
   position: fixed;
