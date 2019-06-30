@@ -667,6 +667,26 @@ td, th {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+  .badges .badge-link {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  .badges .badge-link:last-child {
+    margin-bottom: 0;
+  }
+
+  .badges .badge-link img {
+    height: 60px;
+  }
+
+  @media (min-width: 768px) {
+    .badges .badge-link {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+  }
+
 @media (max-width: 991px) {
   .download-button {
     -webkit-box-direction: normal !important;
@@ -2742,7 +2762,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     .post-content-area .single-post .posts-title h3 {
       margin: 20px 0px; }
     .post-content-area .single-post .excert {
+      font-size: 21px;
       margin-bottom: 20px; }
+    .post-content-area .single-post .body {
+      color: #2E2E2E;
+      font-family: sans-serif;
+      font-weight: lighter;
+        font-size: 21px;
+        margin-bottom: 20px;
+        line-height: 1.6em;}
+
     .post-content-area .single-post .primary-btn {
       background: #f9f9ff;
       color: #222222 !important;
@@ -2811,7 +2840,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     .widget-wrap {
       margin-top: 50px; } }
   .widget-wrap .single-sidebar-widget {
-    margin: 30px 30px;
+    margin: 0 30px 30px 0;
     padding-bottom: 30px;
     border-bottom: 1px solid #eee; }
     .widget-wrap .single-sidebar-widget:last-child {
@@ -2861,6 +2890,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     .widget-wrap .user-info-widget img {
       max-width: 100px
     }
+    .widget-wrap .user-info-widget .badges {
+      text-align: left; }
+    .widget-wrap .user-info-widget .badges img {
+      max-width: 180px
+    }
+
+
     .widget-wrap .user-info-widget a h4 {
       margin-top: 40px;
       margin-bottom: 5px;
@@ -3031,6 +3067,10 @@ body.mobile-nav-active #mobile-nav-toggle {
       .single-post-area .social-links li a:hover {
         color: #46dbf9; }
   .single-post-area .quotes {
+    font-family: Poppins;
+    color: #2E2E2E;
+    font-size: 21px;
+    line-height: 1.6em;
     margin-top: 20px;
     padding: 30px;
     background-color: white;
