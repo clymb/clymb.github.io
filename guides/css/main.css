@@ -233,6 +233,7 @@ section p {
   outline: none;
   cursor: pointer; }
   @media (max-width: 767px) {
+		body {font-family: -apple-system, BlinkMacSystemFont, sans-serif;}
     #mobile-nav-toggle {
       top: 22px; } }
 
@@ -287,7 +288,8 @@ section p {
   font-weight: 700; }
 
 #mobile-nav ul li a:hover {
-  color: #fff; }
+	background-color: #fff;
+	color: #000;}
 
 #mobile-nav ul li li {
   padding-left: 30px; }
